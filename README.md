@@ -14,7 +14,7 @@ i used Piper/Ratbag to configure my mouse's DPI button to send a "Button 5" pres
 just select the deivice you want to monitor in ``evtest`` and spam the button a few times to find the event code name:
 ![Screenshot from 2024-05-25 20-30-02](https://github.com/Ao1Pointblank/button10.py/assets/88149675/617fb40b-a54e-4251-a693-79825534ad9e)
 
-* CONFIGURING COMMANDS
+* CONFIGURING COMMANDS    
 lastly, you just need to make your own list of commands, preceeded by the WM_CLASS value.
 you can use the following terminal command to get the WM_CLASS of a window:  
 ```bash
