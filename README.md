@@ -1,6 +1,11 @@
 # button10.py
 Python script to rebind mouse button on per-application basis for hotkeys    
 
+dependencies:    
+  -  X11 linux system  
+  -  xdotool: ```sudo apt-get install xdotool```    
+  -  evtest: ```pip3 install evdev```    
+
 this is a remake of [this crappy bash project](https://github.com/Ao1Pointblank/xinput-mouse-keybinds)    
 
 * FINDING DEVICE NAME  
